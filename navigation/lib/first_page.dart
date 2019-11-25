@@ -29,20 +29,12 @@ class FirstPage extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Center(
-                            child: Image.asset('lib/assets/images/logo.png')),
-                      ],
+                    Center(
+                      child: Image.asset('lib/assets/images/logo.png'),
                     ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Center(
-                            child: Image.asset(
-                                'lib/assets/images/undraw_Chef_cu0r.png')),
-                      ],
+                    Center(
+                      child:
+                          Image.asset('lib/assets/images/undraw_Chef_cu0r.png'),
                     ),
                     Center(
                       child: Text(
