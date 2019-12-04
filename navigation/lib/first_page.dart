@@ -57,10 +57,16 @@ class FirstPage extends StatelessWidget {
                           style: TextStyle(fontFamily: 'Roboto', fontSize: 24),
                         ),
                       ),
-                      Center(
-                        child: Text(
-                          "GetChefNow provides a professional chef to come to your place and cook multiple servings of healthy, nutritious meals.",
-                          style: TextStyle(fontFamily: 'Roboto', fontSize: 15),
+                      Container(
+                        width: 272,
+                        height: 88,
+                        margin: const EdgeInsets.only(left: 40.0, right: 20.0),
+                        child: Center(
+                          child: Text(
+                            "GetChefNow provides a professional chef to come to your place and cook multiple servings of healthy, nutritious meals.",
+                            style:
+                                TextStyle(fontFamily: 'Roboto', fontSize: 15),
+                          ),
                         ),
                       ),
                       Row(

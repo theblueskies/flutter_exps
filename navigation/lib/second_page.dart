@@ -56,10 +56,16 @@ class SecondPage extends StatelessWidget {
                           style: TextStyle(fontFamily: 'Roboto', fontSize: 24),
                         ),
                       ),
-                      Center(
-                        child: Text(
-                          "Ut labore et dolore roipi mana aliqua. Enim adeop minim veeniam nostruklad",
-                          style: TextStyle(fontFamily: 'Roboto', fontSize: 15),
+                      Container(
+                        width: 272,
+                        height: 88,
+                        margin: const EdgeInsets.only(left: 40.0, right: 20.0),
+                        child: Center(
+                          child: Text(
+                            "Ut labore et dolore roipi mana aliqua. Enim adeop minim veeniam nostruklad",
+                            style:
+                                TextStyle(fontFamily: 'Roboto', fontSize: 15),
+                          ),
                         ),
                       ),
                       Row(

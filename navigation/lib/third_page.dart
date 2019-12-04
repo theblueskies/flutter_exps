@@ -51,10 +51,16 @@ class ThirdPage extends StatelessWidget {
                           style: TextStyle(fontFamily: 'Roboto', fontSize: 24),
                         ),
                       ),
-                      Center(
-                        child: Text(
-                          "Let's get back to eating right, eating home cooked meals. Let's take back our evenings.",
-                          style: TextStyle(fontFamily: 'Roboto', fontSize: 15),
+                      Container(
+                        width: 272,
+                        height: 88,
+                        margin: const EdgeInsets.only(left: 40.0, right: 20.0),
+                        child: Center(
+                          child: Text(
+                            "Let's get back to eating right, eating home cooked meals. Let's take back our evenings.",
+                            style:
+                                TextStyle(fontFamily: 'Roboto', fontSize: 15),
+                          ),
                         ),
                       ),
                       Row(
