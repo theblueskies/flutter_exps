@@ -48,7 +48,7 @@ class FirstPage extends StatelessWidget {
                         child: Text(
                           "Pro Chefs",
                           style: TextStyle(
-                              fontFamily: 'Playfair Display', fontSize: 40),
+                              fontFamily: 'Playfair-Display', fontSize: 54),
                         ),
                       ),
                       Center(
