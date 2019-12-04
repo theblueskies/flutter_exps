@@ -19,7 +19,10 @@ class ThirdPage extends StatelessWidget {
                 gradient: LinearGradient(
               begin: Alignment(0, 0),
               end: Alignment.bottomCenter,
-              colors: [Color(0xff7EB4E5), Color(0xff0084FF)],
+              colors: [
+                Color.fromRGBO(153, 206, 255, 0.56),
+                Color.fromRGBO(173, 215, 255, 0.56)
+              ],
             )),
             child: Scaffold(
                 backgroundColor: Colors.transparent,

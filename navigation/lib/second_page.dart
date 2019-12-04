@@ -25,7 +25,10 @@ class SecondPage extends StatelessWidget {
                 gradient: LinearGradient(
               begin: Alignment(0, 0),
               end: Alignment.bottomCenter,
-              colors: [Color(0xff83B692), Color(0xff40CA67)],
+              colors: [
+                Color.fromRGBO(188, 255, 207, 0.51),
+                Color.fromRGBO(188, 255, 207, 0.51)
+              ],
             )),
             child: Scaffold(
                 backgroundColor: Colors.transparent,

@@ -23,22 +23,11 @@ class FirstPage extends StatelessWidget {
             width: 5,
             decoration: BoxDecoration(
                 gradient: LinearGradient(
-              begin: Alignment(0, -3),
+              begin: Alignment(0, 0),
               end: Alignment.bottomCenter,
               colors: [
-                //  Screen1: #B8C65B, #DCDCDC36 .... #B8C65B, #DCDCDC36
-                // Screen2: #83B692B8, #40CA67B8
-                // Color(0xFFbcffcf),
-                // Color.fromARGB(a, r, g, b)
-                // Color(0xffbcffcf),
-                // Color.fromARGB(125, 188, 255, 207),
-                // Color.fromRGBO(188, 255, 207, 0.51),
-                Color(0xffB8C65B),
-                Color(0xffDCDCDC),
-                // Color.fromRGBO(188, 255, 207, 0.51),
-                // Color.fromRGBO(220, 220, 220, .21),
-                // Color(0xffbcffcf),
-                // Color(0xff40CA67B8)
+                Color.fromRGBO(255, 253, 183, 1),
+                Color.fromRGBO(255, 255, 255, 1),
               ],
             )),
             child: Scaffold(
