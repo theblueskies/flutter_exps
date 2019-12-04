@@ -67,12 +67,17 @@ class ThirdPage extends StatelessWidget {
                               _navigateToLoginPage(context);
                             },
                           ),
-                          FlatButton(
-                            child: Text("NEXT"),
-                            color: Colors.blue,
-                            onPressed: () {
-                              _navigateToLoginPage(context);
-                            },
+                          Container(
+                            width: 155,
+                            height: 48,
+                            child: RaisedButton(
+                              child: Text("NEXT"),
+                              elevation: 3,
+                              color: Color.fromRGBO(235, 235, 235, 1),
+                              onPressed: () {
+                                _navigateToLoginPage(context);
+                              },
+                            ),
                           ),
                         ],
                       ),
