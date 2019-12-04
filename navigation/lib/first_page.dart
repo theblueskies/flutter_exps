@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 import 'second_page.dart';
+import 'login_page.dart';
 
 class FirstPage extends StatelessWidget {
+  void _navigateToLoginPage(BuildContext context) {
+    Navigator.push(
+        context, new MaterialPageRoute(builder: (ctxt) => new LoginPage()));
+  }
+
   void _navigateToSecondPage(BuildContext context) {
     Navigator.push(
         context, new MaterialPageRoute(builder: (ctxt) => new SecondPage()));
@@ -73,12 +79,12 @@ class FirstPage extends StatelessWidget {
                         children: <Widget>[
                           FlatButton(
                             child: Text("SKIP"),
-                            color: Colors.blue,
+                            color: Colors.transparent,
                             onPressed: () {
-                              _navigateToSecondPage(context);
+                              _navigateToLoginPage(context);
                             },
                           ),
-                          FlatButton(
+                          RaisedButton(
                             child: Text("NEXT"),
                             color: Colors.blue,
                             onPressed: () {
