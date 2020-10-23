@@ -24,4 +24,9 @@ class TaskList extends ChangeNotifier {
     task.done = !task.done;
     notifyListeners();
   }
+
+  void remove(int index) {
+    tasks.removeAt(index);
+    notifyListeners();
+  }
 }

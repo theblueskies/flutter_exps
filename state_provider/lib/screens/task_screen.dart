@@ -15,12 +15,19 @@ class TaskScreen extends StatelessWidget {
           return ListView.builder(
               itemCount: taskList.tasks.length,
               itemBuilder: (context, i) {
+                final task = taskList.tasks[i];
                 return ListTile(
                   title: Text(taskList.tasks[i].description),
+                  onLongPress: () => taskList.remove(i),
                   onTap: () => taskList.completeTask(taskList.tasks[i]),
-                  trailing: taskList.tasks[i].done
-                      ? Icon(Icons.done)
-                      : Icon(Icons.crop_square),
+                  trailing: Checkbox(
+                    activeColor: Colors.blue,
+                    onChanged: null,
+                    value: taskList.tasks[i].done,
+                  ),
+                  // trailing: taskList.tasks[i].done
+                  //     ? Icon(Icons.done)
+                  //     : Icon(Icons.crop_square),
                 );
               });
         }),
